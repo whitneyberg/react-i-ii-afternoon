@@ -1,0 +1,92 @@
+
+
+
+.App {
+  
+  background-color: rgb(33,33,33);
+  height:100vh;
+}
+
+ol{
+  padding: 0;
+}
+
+header{
+  justify-content: left;
+  display: flex;
+  background-color: rgb(68,166,217);
+  height: 10vh;
+  width: 100%;
+  font-size: 20px;
+  color:black;
+  font-family: 'Times';
+  align-items: center;
+  padding-left: 100px;
+}
+
+
+.Main{
+  height:50vh;
+  background-color: white;
+  margin-top: 150px;
+  margin-left: 175px;
+  margin-right: 175px;
+  justify-content: left;
+  padding-left: 30px;
+  padding-top: 15px;
+  
+
+  
+}
+
+.name{
+  text-decoration: underline rgb(125,190,224);
+
+}
+
+.prev{
+margin-right: 730px;
+margin-left: 165px;
+background-color: rgb(33,33,33);
+  color: white;
+font-family: 'Times';
+border: transparent;
+font-size: x-large;
+font-weight: bold;
+
+
+}
+
+.forward{
+  margin-left: 180px;
+  background-color: rgb(33,33,33);
+  color: white;
+  font-family: "Times";
+  border: transparent;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.info{
+  margin-bottom:20px ;
+  font-family: 'Times';
+  font-size: large;
+  padding:25px;
+}
+
+.movie-title{
+  margin-left: 15px;
+}
+
+.number {
+  font-size: xx-large;  
+  font-family: 'Times';
+  font-weight: bolder;
+  position: absolute;
+  top: 195px;
+  right: 185px;
+}
+
+.movie-list{
+  padding:25px;
+}
